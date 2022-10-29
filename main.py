@@ -18,7 +18,7 @@ def ceasar(text, shift, direction):
   if direction == "encrypt":
     # For each letter in the message...
     for letter in text:
-      # If it is a special charecter
+      # If it is a special charecter...
       if letter not in alphabet:
         # Add to the string without altering
         ceasar_text += letter
